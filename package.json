@@ -2,7 +2,7 @@
   "name": "ghost-admin-ember-demo",
   "namespace": "ghost",
   "APIMethod": "stub",
-  "proxyURL": "ghost-admin-ember.herokuapp.com"
+  "proxyURL": "ghost-admin-ember.herokuapp.com",
   "proxyPath": "/ghost/api/v0.1",
   "version": "0.0.0",
   "private": true,
@@ -51,7 +51,7 @@
     "request": "~2.33.0",
     "loom-generators-ember-appkit": "~1.0.2",
     "originate": "~0.1.5",
-    "loom": "~3.1.2",
+    "loom": "~3.1.2"
   },
   "devDependencies": {
     "express": "~3.4.8",
