@@ -17,7 +17,7 @@
     "start": "grunt server",
     "build": "grunt build:debug",
     "test": "grunt test:ci",
-    "postinstall": "./node_modules/bower/bin/bower install; ./node_modules/grunt-cli/bin/grunt dist"
+    "postinstall": "./node_modules/bower/bin/bower install --verbose; ./node_modules/grunt-cli/bin/grunt dist --verbose"
   },
   "repository": {
     "type": "git",
