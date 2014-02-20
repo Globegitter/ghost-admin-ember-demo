@@ -17,8 +17,8 @@ var Post = DS.Model.extend({
   updated_by: DS.attr('number'),
   published_at: DS.attr('date'),
   published_by: DS.attr('date'),
-  //user: DS.belongsTo('user'),
-  //author: DS.belongsTo('author'),
+  user: DS.belongsTo('user'),
+  author: DS.belongsTo('author'),
   tags: DS.hasMany('tag')
 });
 
@@ -44,8 +44,8 @@ Post.FIXTURES = [{
   "updated_by": 1,
   "published_at": null,
   "published_by": null,
-  //"author": 1,
-  //"user": 1,
+  "author": 1,
+  "user": 1,
   "tags": []
 },
 			    {
@@ -69,6 +69,8 @@ Post.FIXTURES = [{
 			      "updated_by": 1,
 			      "published_at": "2014-02-15T20:02:01.000Z",
 			      "published_by": 1,
+                  "author": 1,
+                  "user": 1,
                   "tags": [1]
                 }
   

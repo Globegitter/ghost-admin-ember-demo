@@ -1,7 +1,7 @@
 var Router = Ember.Router.extend(); // ensure we don't share routes between all Router instances
 
 Router.reopen({
-  //location: 'history', // use HTML5 History API instead of hash-tag based URLs
+  location: 'history', // use HTML5 History API instead of hash-tag based URLs
   rootURL: '/ghost/' // admin interface lives under sub-directory /ghost
 });
 
