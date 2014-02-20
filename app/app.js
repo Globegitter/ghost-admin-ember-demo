@@ -33,4 +33,8 @@ Ember.Route.reopen({
   }
 });
 
+//App.ApplicationAdapter = DS.ActiveModelAdapter.extend({
+//  namespace: 'ghost/api/v1'
+//});
+
 export default App;
